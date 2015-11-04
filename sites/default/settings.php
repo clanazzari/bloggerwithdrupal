@@ -216,7 +216,7 @@
  //
  $databases['default']['default'] = array(
    'driver' => 'mysql',
-   'database' => 'piadorwithdrupal',
+   'database' => 'bloggerwithdrupal',
    'username' => $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'],
    'password' => $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'],
    'host' => $_ENV['OPENSHIFT_MYSQL_DB_HOST'],
@@ -276,7 +276,7 @@ $drupal_hash_salt = '';
  * It is not allowed to have a trailing slash; Drupal will add it
  * for you.
  */
-$base_url = 'http://piadorwithdrupal-nazzari.rhcloud.com';  // NO trailing slash!
+$base_url = 'http://bloggerwithdrupal-nazzari.rhcloud.com';  // NO trailing slash!
 
 
 /**

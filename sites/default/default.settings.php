@@ -214,7 +214,7 @@
  */
  $databases['default']['default'] = array(
    'driver' => 'mysql',
-   'database' => 'piadorwithdrupal',
+   'database' => 'bloggerwithdrupal',
    'username' => $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'],
    'password' => $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'],
    'host' => $_ENV['OPENSHIFT_MYSQL_DB_HOST'],
