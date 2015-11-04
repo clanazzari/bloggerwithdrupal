@@ -1,0 +1,68 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #666;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+div#main {
+  text-align: center;
+}
+div#main .header-wrapper {
+  text-align: center;
+}
+div#main .header-wrapper .header {
+  text-align: center;
+}
+div#main .header-wrapper .header .header-logo {
+  max-width: 100%;
+  height: auto;
+}
+div#main .content-wrapper {
+  text-align: center;
+}
+div#main .content-wrapper .content {
+  width: 960px;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  padding-top: 10px;
+}
+div#main .footer-wrapper {
+  text-align: center;
+}
+div#main .footer-wrapper .footer {
+  width: 960px;
+  max-width: 100%;
+  height: auto;
+  background-color: #999;
+  display: inline-block;
+}
+div#main .node-content {
+  height: 100%;
+  vertical-align: top;
+  display: inline-block;
+  background-color: #fafafa;
+}
+@media only screen and (max-width: 480px) {
+  div#main .node-content.node-responsive {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  div#main .node-content.node-responsive {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  div#main .node-content.node-responsive {
+    width: 33%;
+  }
+}
+div#main .node-content.node-responsive-full {
+  width: 98%;
+}

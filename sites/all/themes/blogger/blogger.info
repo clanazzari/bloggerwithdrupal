@@ -1,0 +1,12 @@
+name = Blogger Theme
+description = Responsive Theme for Blogs by Claudio Nazzari.
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/main.css
+
+regions[header-wrapper] = Header Wrapper
+regions[header] = Header
+regions[content-wrapper] = Content Wrapper
+regions[content] = Content
+regions[footer-wrapper] = Footer Wrapper
+regions[footer] = Footer
