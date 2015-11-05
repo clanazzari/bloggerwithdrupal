@@ -1,7 +1,7 @@
 # bloggerwithdrupal
 bloggerwithdrupal
 
-This is a sample project done in Drupal with configurations of OpenShift and a responsive personalized simple theme.
+This is a sample project done in Drupal with settings for OpenShift and a responsive personalized simple theme.
 
 Theme and Showcase
 --------------
